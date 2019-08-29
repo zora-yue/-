@@ -1,0 +1,45 @@
+.detail{margin-top:0.92rem;background:#fff;
+    .detail_interest{height: 1.72rem;padding-top:0.5rem;font-size:0.68rem;font-weight: 700;background: linear-gradient(#ff3c01,#d80607);text-align: center;color:#fff;
+        h3{font-size:0.68rem;font-weight: 600;}
+        p{margin-top:0.4rem;font-size:0.3rem;}
+    }
+    .detail_day{height: 0.79rem;color:#777;font:0.3rem/0.79rem "";border-bottom: 1px solid #f1f0f0;display: flex;justify-content: space-around;
+    b{color:#f2f2f2;}
+    }
+    .detail_save{
+        ul{background: url(../../assets/img/detail_icon_bg.png) no-repeat center;display:flex;flex-wrap:wrap;justify-content: space-around;
+            li{
+                img{width:0.55rem;height:0.55rem;margin-right: 0.13rem;}
+                span{color:#ffc166;font-size:0.24rem;vertical-align: middle;}
+            }
+        }
+    }
+    .detail_save_jin{position: relative;margin-top:1rem;
+        .detail_save_p{width:6.82rem;height:0.15rem;border-radius: 0.15rem;background: #f0f0f0;margin:0 auto;margin-top:0.6rem;
+            
+        }
+        .detail_save_jin_num{position: absolute;top:-0.5rem;
+            p{
+                width:0.6rem;height: 0.32rem;background: #fb0502;color:#fff;font-size:0.3rem;margin-bottom: 2px;
+            }
+            #triangle-down {position: absolute;left: 0.16rem;
+                width: 0;
+                height: 0;
+                border-left:0.12rem solid transparent;
+                border-right:0.12rem solid transparent;
+                border-top:0.07rem solid #fb0502;
+            }
+        }
+        .detail_save_jin_money{color:#808080;font-size:0.22rem;padding:0 0.34rem;display: flex;justify-content: space-between;margin-top:0.3rem;
+            s{color:#fb0502;}
+        }
+    }
+    .detail_more{font-size:0.22rem;color:#808080;display:block;height:3rem;position: relative;
+        a{position: absolute;bottom:0.35rem;left:40%}
+    }
+    .detail_now{background:#f0f0f0;border-top:1px solid #e0e0e0;height: 1.05rem;
+        p{color:#f90;font-size:0.32rem;float:left;border-bottom: 0.02rem solid #f90;margin:0.32rem 0.51rem 0 0.36rem;}
+        input{width:5.17rem;height: 0.82rem;background:#fa3432;font-size:0.34rem;color:#fff;float: left;margin:0.12rem 0.12rem 0 0;}
+    }
+}
+.am-progress-bar{border:0.075rem solid #fb0502;}

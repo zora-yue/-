@@ -1,0 +1,4 @@
+.header{width:7.5rem;height:0.92rem;background:#fa3432;display: flex;justify-content: space-between;align-items: center;position:fixed;top:0;z-index: 100;}
+.header_go{margin-left:0.3rem;}
+h3{font-size:0.28rem;color:#fff;}
+.header_more{margin-right:0.38rem;}

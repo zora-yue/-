@@ -1,0 +1,13 @@
+.login{background:#f9f9f9;margin-top:0.92rem;}
+.login .tel_img{height: 3.3rem;width:1.92rem;margin:0 auto;}
+.login .tel_img img{margin-top:56px;}
+.login .tel_p{margin:0 0 0.22rem 0.38rem;font-size:0.26rem;color:#0e0e0e;margin-top:0.2rem;}
+.login .tel_text{border:1px solid #eee;width:7rem;height: 0.77rem;color:#a2a2a2;margin:0 auto;border-radius: 5px;background: #fff;}
+.login .tel_text img{float: left;margin:0 0.12rem;}
+.login .tel_text input{float:left;width:6.4rem;font:0.28rem/0.75rem "";}
+.login .tel_button{margin:0 auto;width:6.92rem;padding-bottom: 1.56rem;border-bottom:1px solid #f0f0f0;}
+.login .tel_button input{width:6.92rem;height: 0.81rem;background: #fa3432;font-size:0.3rem;color: #fff;margin-top:0.23rem;border-radius: 5px;cursor: pointer;}
+.login .tel_button .look{font:0.26rem/0.69rem "";color:#585858;text-align: center;display:block;}
+.login .tel_button span{font:0.2rem/0.3rem "";color:#585858;text-align:right;display:block;}
+.login .tel_button span a{color:#fa3432;cursor: pointer;}
+.login_mess{font-size:0.2rem;}

@@ -1,0 +1,28 @@
+$bp:background-position;
+
+.help{padding-top: 0.92rem;padding-bottom:0.22rem;background:#f9f9f9;border-bottom:0.02rem solid #f9f9f9;
+    .help_entry{
+        li{height: 0.88rem;display:flex;padding:0 0.35rem 0 0.3rem;align-items:center;position: relative;
+            i{display: block;width:0.58rem;height: 0.58rem;background:url(../../assets/img/help-icon.png);
+            &.i2{background-position:0 -0.85rem;}
+            &.i3{background-position:0 -1.73rem;}
+            &.i4{background-position:0 -2.6rem;}
+            &.i5{background-position:0 -3.45rem;}
+            &.i6{background-position:0 -4.33rem;}
+            &.i7{background-position:0 -5.21rem;}
+            &.i8{background-position:0 -6.06rem;}
+            }
+            p{color:#4c4b4b;font-size:0.25rem;margin-left:0.21rem;}
+            span{color:#fa9c39;font-size:0.16rem;position: absolute;right:0.4rem;}
+        }
+    }
+    .help_tel{background: #fff;height:1.28rem;margin-top:0.2rem;
+        i{display: block;width:0.8rem;height:0.8rem;background: url(../../assets/img/tel.png) no-repeat;float: left;margin:0.25rem 0 0 0.2rem;}
+        .help_tel_n{float: left;margin:0.32rem 0 0 0.28rem;
+            h3{font-size:0.28rem;color:#000;
+                s{color: #06a2ce;}
+            }
+            p{font-size: 0.18rem;color:#adadad;}
+        }
+    }
+}

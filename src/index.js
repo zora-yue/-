@@ -1,12 +1,28 @@
+import store from './store';
+import {Provider} from 'react-redux';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import ReactDom from 'react-dom';
+import App from './layouts/App/App.js'
+import {BrowserRouter,Route} from 'react-router-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import './plugins/axios' //配置axios
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+import './assets/css/base.css';//配置全局css
+import './assets/js/font';//自适应rem布局
+
+import * as utils from './utils';
+Object.keys(utils).forEach(key=>React.Component[key]=utils[key]);
+
+
+
+
+ReactDom.render(
+    // 路由跳转可以拿到路由上下文
+    <Provider store={store}>
+        <BrowserRouter>
+            <Route component={App}/>
+        </BrowserRouter>
+    </Provider>
+    ,
+    document.getElementById("root")
+)

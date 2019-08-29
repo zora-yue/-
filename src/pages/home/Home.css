@@ -1,0 +1,31 @@
+.home{width:7.5rem;}
+.home .top{height:0.94rem;background: #fa3432;color:#fff;font-size:0.3rem;line-height: 0.94rem;}
+.home .top .logo{float: left;display: flex;}
+.home .top .logo img{margin:0.2rem 0.12rem 0 0.18rem;width:0.47rem;height: 0.49rem;}
+.home .top .top-right{float:right;margin-right:0.33rem;}
+.home .top .top-right span{margin:0 0.12rem;}
+.home .top .top-right a{color:#fff;}
+.home .home-head{display: flex;justify-content:space-around;font-size:0.24rem;line-height: 0.86rem;color:#4b4a4a;}
+.active {color:#ff3636;}
+.home .home_swipe{width:100%;}
+.home .home_swipe img{height:3.6rem;width:100%}
+.home .home_nav{display: flex;height: 2rem;justify-content: space-around;}
+.home .home_nav li img{display: block;width:0.9rem;height: 0.9rem;}
+.home .home_nav li p{font-size:0.24rem;color:#808080;margin-top:0.05rem;}
+.home .home_list{background:#f9f9f9;border-top:1px solid #e9e9e8;padding:0 0.23rem;}
+.home .home_list .hot{height: 0.95rem;font-size:0.3rem;}
+.home .home_list h3 p{background:url(../../assets/img/home_ico_09.png) no-repeat left;color:#494848;padding-left:0.55rem;background-size:0.45rem;line-height:0.95rem;float: left;}
+.home .home_list h3 span{float:right;color:#9a9b9c;line-height: 0.95rem;margin-right:0.18rem;}
+.home_cell{border:1px solid #e9e9e8;margin-bottom: 0.25rem;height: 2.55rem;padding:0.25rem 0;background: #fff;}
+.list_news h3{height: 0.95rem;font-size:0.3rem;background:url(../../assets/img/home_ico_10.png) no-repeat;color:#494848;padding-left:0.55rem;background-size:0.45rem;margin-top:0.35rem;}
+.home_news {background: #fff;border-top:1px solid #e9e9e8;border-bottom:1px solid #e9e9e8;width:100%;}
+.home_news li{margin-top:0.35rem;}
+.home_news li a{display: flex;width:100%;}
+.home_news li .new_img{height: 1.1rem;width:1.1rem;margin:0 0.23rem;}
+.home_news li img{height: 1.1rem;width:1.1rem;border-radius: 0.15rem;}
+.home_news li .li_r{display: flex;justify-content:space-between;width:100%}
+.home_news li .li_r p{font-size:0.28rem;color: #494848;margin-top:0.2rem;}
+.home_news li .li_r p b{display: block;color:#9a9b9c;font-size: 0.24rem;font-weight: 300;}
+.home_news li .li_r span{color:#9a9b9c;font-size: 0.24rem;margin-top:0.2rem;margin-right:0.25rem;}
+.home_news li:last-child{margin-bottom:0.35rem;}
+.home .geduan{height:0.23rem;background:#f9f9f9;border-bottom:1px solid #e9e9e8;}
